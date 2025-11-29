@@ -1,0 +1,253 @@
+/* ==========================
+   PREMIUM LUXURY THEME CSS
+   Arabian Essence – Gold & Black Theme
+   ========================== */
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ==========================
+   HEADER
+   ========================== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #111;
+  align-items: center;
+  border-bottom: 1px solid gold;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover, nav a.active {
+  color: gold;
+}
+
+/* ==========================
+   HERO SECTIONS
+   ========================== */
+.premium-bg {
+  position: relative;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://images.unsplash.com/photo-1585386959984-a4155224a1a5');
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: gold;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #f1f1f1;
+}
+
+/* ==========================
+   BUTTONS
+   ========================== */
+.btn {
+  padding: 12px 25px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.gold-btn {
+  background: gold;
+  color: #000;
+  font-weight: bold;
+}
+
+a.gold-btn:hover {
+  background: #e6c200;
+}
+
+.full-btn {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+/* ==========================
+   ABOUT SECTION
+   ========================== */
+.about-section {
+  padding: 60px 40px;
+}
+
+.about-grid {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.about-grid.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-grid img {
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid gold;
+}
+
+.long-content {
+  margin-top: 50px;
+  padding: 20px;
+  border-left: 4px solid gold;
+}
+
+/* ==========================
+   PRODUCT GRID
+   ========================== */
+.product-grid-section {
+  padding: 60px 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  border-color: gold;
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid gold;
+}
+
+.price {
+  color: gold;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ==========================
+   PAYMENT FORM
+   ========================== */
+.payment-form-section {
+  padding: 60px 40px;
+}
+
+.payment-form {
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid gold;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-form input, .payment-form select {
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.payment-form label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ==========================
+   THANK YOU PAGE
+   ========================== */
+.thankyou-content {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.thankyou-content ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.thankyou-content li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* ==========================
+   FOOTER
+   ========================== */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  border-top: 1px solid gold;
+  margin-top: 40px;
+}
