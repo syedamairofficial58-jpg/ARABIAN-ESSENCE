@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment – Arabian Essence</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="header">
+  <div class="logo">ARABIAN ESSENCE</div>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="product.html">Products</a>
+    <a href="payment.html" class="active">Payment</a>
+  </nav>
+</header>
+
+<section class="payment-hero premium-bg">
+  <div class="overlay"></div>
+  <div class="hero-text">
+    <h1>Secure Payment</h1>
+    <p>Fill in your details to complete the purchase.</p>
+  </div>
+</section>
+
+<section class="payment-form-section">
+  <h2 class="section-title">Billing Details</h2>
+  <form class="payment-form" action="thankyou.html" method="GET">
+
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your full name" required />
+
+    <label>Email Address</label>
+    <input type="email" placeholder="Enter your email" required />
+
+    <label>Phone Number</label>
+    <input type="text" placeholder="Enter phone number" required />
+
+    <label>Address</label>
+    <input type="text" placeholder="Complete address" required />
+
+    <label>City</label>
+    <input type="text" placeholder="City" required />
+
+    <label>State</label>
+    <input type="text" placeholder="State" required />
+
+    <label>Payment Method</label>
+    <select required>
+      <option>UPI</option>
+      <option>Credit Card</option>
+      <option>Debit Card</option>
+      <option>Net Banking</option>
+      <option>Cash on Delivery</option>
+    </select>
+
+    <button type="submit" class="btn gold-btn full-btn">Complete Payment</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Arabian Essence | Premium Arabic Perfumes</p>
+</footer>
+</body>
+</html>
